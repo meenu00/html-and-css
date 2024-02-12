@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Table</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+        .Pass {
+            background-color: green;
+            color: white;
+        }
+        .Fail {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Basic Table</h1>
+    <script src="app.js"></script>
+    <table>
+        <thead>
+            <th colspan="2">
+                Full Name
+            </th>
+            <th>
+                Class
+            </th>
+            <th>
+                Rolno
+            </th>
+            <th>
+                Marks
+            </th>
+            <th>
+                Grade
+            </th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Yash</td>
+                <td>Raut</td>
+                <td rowspan="5">7th</td>
+                <td>50</td>
+                <td>93</td>
+                <td class="Pass">A</td>
+            </tr>
+            <tr>
+                <td>Shyam</td>
+                <td>Bajaj</td>
+                <td>24</td>
+                <td>81</td>
+                <td class="Pass">B</td>
+            </tr>
+            <tr>
+                <td>Ritu</td>
+                <td>Kumari</td>
+                <td>29</td>
+                <td>98</td>
+                <td class="Pass">A</td>
+            </tr>
+            <tr>
+                <td>Isha</td>
+                <td>Singh</td>
+                <td>34</td>
+                <td>45</td>
+                <td class="Fail">F</td>
+            </tr>
+            <tr>
+                <td>Ram</td>
+                <td>Kashyap</td>
+                <td>21</td>
+                <td>49</td>
+                <td class="Fail">C</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
